@@ -1,0 +1,49 @@
+.column {
+    width: 150px;
+    text-align: center;
+    margin: 20px; /* Increase margin to prevent overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.column img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Hover effect for columns */
+.column:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Darkmoon styling */
+.darkmoon {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 69, 0, 0.5);
+}
+
+/* Instagram styling */
+.instagram {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(138, 43, 226, 0.5);
+    color: black;
+}
+
+/* Anchor tag styling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Add smooth hover effect for columns */
+a:hover img {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
